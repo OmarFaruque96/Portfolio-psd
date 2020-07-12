@@ -1,0 +1,44 @@
+.first{
+	color: red;
+	background-color: grey;
+	font-size: 56px; 
+	font-weight: 400; 
+	letter-spacing: 5px;
+	border: 5px solid black; 
+	border-radius: 10px;
+}
+
+span{
+	color: red;
+}
+
+.box{
+	height: 300px;
+	width: 500px;
+	background-color: green;
+	margin: 0 auto;
+}
+.box h1{
+	background-color: grey;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.outer-box{
+	height: 100px;
+	width: 150px;
+	background-color: #999;
+	position: relative;
+}
+.inner-box{
+	height: 20px;
+	width: 20px;
+	background: white;
+	position: absolute;
+	bottom: -10px;
+	left: 65px;
+	transform: rotate(45deg);
+}
